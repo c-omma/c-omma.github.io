@@ -1,7 +1,70 @@
+html {
+  background-color: #F1E7E5;
+}
 
-.gochi-hand-regular {
-    font-family: "Gochi Hand", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+body {
+  /* width: 600px;
+  margin: 0 auto;
+  background-color: #F1E7E5;
+  padding: 0 20px 20px 20px;
+  border: 5px dashed #BCA59F; */
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+
+  font-family: "EB Garamond", serif;
+  color: #2F201C;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Gochi Hand", serif;
+  color: #C38783;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 80px;
+  text-align: center;
+
+  text-shadow: 2px 2px 1px #904f4a;
+
+  margin: 0;
+}
+
+h2 {
+  font-family: "Gochi Hand", serif;
+  color: #906D64;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+
+  padding-top: 20px;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+a {
+  font-family: "EB Garamond", serif;
+  color: #906D64;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D2A689;
+  text-decoration: underline;
+}
