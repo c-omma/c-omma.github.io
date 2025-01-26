@@ -84,7 +84,6 @@ a:hover {
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -98,7 +97,7 @@ a:hover {
 }
 
 .flex-container > div > a {
-  font-size: 3vw;  
+  font-size: 30px;  
 }
 
 .flex-container > div > img {
