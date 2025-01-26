@@ -1,5 +1,24 @@
+:root {
+  /* main colours */
+  --main-bg-color: #F1E7E5;
+  --main-text-color: #4f362f;
+  --main-title-color: #C38783;
+
+  /* secondary colours */
+  --other-title-color: #906D64;
+  --other-text-color: #906D64;
+  --highlight-color: #D2A689;
+
+  /* shadows */
+  --title-shadow: 2px 2px 1px #904f4a
+
+  /* fonts */
+  --main-font: "EB Garamond", serif;
+  --title-font: "Gochi Hand", serif;
+}
+
 html {
-  background-color: #F1E7E5;
+  background-color: var(--main-bg-color);
 }
 
 body {
@@ -14,42 +33,35 @@ body {
   padding: 0 20px 20px 20px;
   text-align: center;
 
-  font-family: "EB Garamond", serif;
-  color: #2F201C;
-  font-size: 25px;
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
 }
 
 h1 {
-  font-family: "Gochi Hand", serif;
-  color: #C38783;
+  font-family: var(--title-font);
+  color: var(--main-title-color);
   font-weight: 600;
   font-style: normal;
   font-size: 80px;
   text-align: center;
 
-  text-shadow: 2px 2px 1px #904f4a;
+  text-shadow: var(--title-shadow);
 
   margin: 0;
 }
 
 h2 {
-  font-family: "Gochi Hand", serif;
-  color: #906D64;
+  font-family: var(--title-font);
+  color: var(--other-title-color);
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
   text-align: center;
 
   padding-top: 20px;
-}
-
-p,
-li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
 }
 
 img {
@@ -59,12 +71,12 @@ img {
 }
 
 a {
-  font-family: "EB Garamond", serif;
-  color: #906D64;
+  color: var(--other-text-color);
   text-decoration: none;
+  font-size: 25px;
 }
 
 a:hover {
-  color: #D2A689;
+  color: var(--highlight-color);
   text-decoration: underline;
 }
