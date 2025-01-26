@@ -18,8 +18,8 @@
     border-top: 0.5vw var(--green-color) solid;
     border-bottom: 3vw transparent solid;
 
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 0.7vw;
+    margin-left: 0.7vw;
 }
 
 .character {
