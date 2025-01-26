@@ -1,47 +1,49 @@
 .flex-container {
-display: flex;
-flex-direction: row;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    min-height: 100vh;
 }
 
 .flex-container > div {
-margin-top: auto;
-margin-bottom: auto;
+    margin: auto 0;
+    text-align: center;
 }
 
 .flex-container > div > h1 {
-font-size: 12vw;
+    font-size: 12vw;
 }
 
 .flex-container > div > a {
-font-size: 30px;  
+    font-size: 30px;
 }
 
 .flex-container > div > img {
-width: auto;
-max-width: 40vw;
-margin-left: auto;
+    max-width: 40vw;
 }
 
 
 @media (max-width: 600px) {
-/* styles for small screens */
-.flex-container {
-    flex-direction: column;
-    align-items: center;
-}
+    /* styles for small screens */
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.flex-container > div > h1 {
-    font-size: 15vw;
-}
+    .flex-container > div {
+        margin: 0 0;
+    }
 
-.flex-container > div > a {
-    font-size: 5vw;  
-}
+    .flex-container > div > h1 {
+        font-size: 15vw;
+    }
 
-.flex-container > div > img {
-    width: auto;
-    max-width: 60vw;
-    margin-left: auto;
-}
+    .flex-container > div > a {
+        font-size: 5vw;  
+    }
+
+    .flex-container > div > img {
+        max-width: 60vw;
+    }
 }

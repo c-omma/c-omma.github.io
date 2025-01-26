@@ -1,20 +1,22 @@
 .banner {
     display:flex;
-    justify-content:center;
+    justify-content: center;
 
-    margin-top: 35px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
 }
 
 .flag {
     width: 0px; 
-    height: 9vw;
+    height: 7vw;
     text-align: center;
     
-    border-left: 5vw var(--green-color) solid;
-    border-right: 5vw var(--green-color) solid;
-    border-top: 1vw var(--green-color) solid;
-    border-bottom: 5vw transparent solid;
+    border-left: 3vw var(--green-color) solid;
+    border-right: 3vw var(--green-color) solid;
+    border-top: 0.5vw var(--green-color) solid;
+    border-bottom: 3vw transparent solid;
 
     margin-right: 5px;
     margin-left: 5px;
@@ -22,7 +24,7 @@
 
 .character {
     font-family: var(--title-font);
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: 700;
     color: var(--white-color);
 
