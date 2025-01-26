@@ -22,16 +22,11 @@ html {
 }
 
 body {
-  /* width: 600px;
+  width: 90%;
   margin: 0 auto;
-  background-color: #F1E7E5;
+  margin-top: 10vw;
   padding: 0 20px 20px 20px;
-  border: 5px dashed #BCA59F; */
-
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 20px 20px 20px;
-  text-align: center;
+  justify-content: center;
 
   font-family: var(--main-font);
   color: var(--main-text-color);
@@ -45,7 +40,7 @@ h1 {
   color: var(--main-title-color);
   font-weight: 600;
   font-style: normal;
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
 
   text-shadow: var(--title-shadow);
@@ -66,8 +61,6 @@ h2 {
 
 img {
   display: block;
-  margin: 0 auto;
-  max-width: 60%;
 }
 
 a {
@@ -79,4 +72,34 @@ a {
 a:hover {
   color: var(--highlight-color);
   text-decoration: underline;
+}
+
+
+.flex-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  border: 2px solid red;
+}
+
+.flex-container > div {
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 2px solid blue;
+}
+
+.flex-container > div > h1 {
+  font-size: 12vw;
+  border: green 1px solid;
+}
+
+.flex-container > div > a {
+  text-align: center;
+  border: green 1px solid;
+}
+
+.flex-container > div > img {
+  width: auto;
+  max-width: 40vw;
+  margin-left: auto;
 }
