@@ -31,6 +31,7 @@ polaroid.addEventListener("click", () => {
 });
 
 function blink() {
+    if (flag == 1) return;
     flag = 1;
 
     polaroid.setAttribute("src", "images/commaSpringBlink.png");
