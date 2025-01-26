@@ -1,0 +1,31 @@
+.banner {
+    display:flex;
+    justify-content:center;
+
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.flag {
+    width: 0px; 
+    height: 9vw;
+    text-align: center;
+    
+    border-left: 5vw var(--green-color) solid;
+    border-right: 5vw var(--green-color) solid;
+    border-top: 1vw var(--green-color) solid;
+    border-bottom: 5vw transparent solid;
+
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.character {
+    font-family: var(--title-font);
+    font-size: 7vw;
+    font-weight: 700;
+    color: var(--white-color);
+
+    width: fit-content;
+    transform: translateX(-50%);
+}
