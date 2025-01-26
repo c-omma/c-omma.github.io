@@ -5,9 +5,15 @@
   --main-title-color: #C38783;
 
   /* secondary colours */
+  --other-bg-color: #BCA59F;
   --other-title-color: #906D64;
   --other-text-color: #906D64;
   --highlight-color: #D2A689;
+
+  /* other colours */
+  --white-color: #f9f9f9;
+  --green-color: #9EA476;
+  --yellow-color:#F5DAAF;
 
   /* shadows */
   --title-shadow: 2px 2px 1px #904f4a;
@@ -77,29 +83,31 @@ a:hover {
 
 .flex-container {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid red;
 }
 
 .flex-container > div {
   margin-top: auto;
   margin-bottom: auto;
-  border: 2px solid blue;
 }
 
 .flex-container > div > h1 {
   font-size: 12vw;
-  border: green 1px solid;
 }
 
 .flex-container > div > a {
-  text-align: center;
-  border: green 1px solid;
+  font-size: 3vw;  
 }
 
 .flex-container > div > img {
   width: auto;
   max-width: 40vw;
   margin-left: auto;
+}
+
+.nothing-else-block {
+  display: block;
+  text-align: center;
+  background-color: var();
 }
