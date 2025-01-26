@@ -27,6 +27,8 @@ polaroid.addEventListener("click", () => {
         polaroid.setAttribute("src", "images/commaSpringOpen.png");
     }, 1000);
 
+    console.log("waved!");
+
     flag = 0;
 });
 
