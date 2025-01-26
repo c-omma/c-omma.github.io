@@ -83,6 +83,7 @@ a:hover {
 
 .flex-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -105,6 +106,30 @@ a:hover {
   max-width: 40vw;
   margin-left: auto;
 }
+
+
+@media (max-width: 600px) {
+  /* styles for small screens */
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container > div > h1 {
+    font-size: 15vw;
+  }
+  
+  .flex-container > div > a {
+    font-size: 5vw;  
+  }
+  
+  .flex-container > div > img {
+    width: auto;
+    max-width: 60vw;
+    margin-left: auto;
+  }
+}
+
 
 .nothing-else-block {
   display: block;
