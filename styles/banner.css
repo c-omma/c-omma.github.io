@@ -17,7 +17,9 @@
     border-right: 3vw var(--green-color) solid;
     border-top: 0.5vw var(--green-color) solid;
     border-bottom: 3vw transparent solid;
-
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    
     margin-right: 0.7vw;
     margin-left: 0.7vw;
 }

@@ -2,7 +2,7 @@ const polaroid = document.querySelector("img");
 let flag = 0;
 
 polaroid.addEventListener("click", () => {
-    if (flag == 1) return;
+    if (flag === 1) return;
     flag = 1;
 
     polaroid.setAttribute("src", "images/commaSpringClosed.png");
@@ -33,7 +33,7 @@ polaroid.addEventListener("click", () => {
 });
 
 function blink() {
-    if (flag == 1) return;
+    if (flag === 1) return;
     flag = 1;
 
     polaroid.setAttribute("src", "images/commaSpringBlink.png");

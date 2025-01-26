@@ -95,6 +95,8 @@ footer {
   border-bottom: 3vw solid var(--white-color);
   border-left: 1vw solid transparent;
   border-right: 1vw solid transparent;
+
+  border-radius: 10%;
 }
 
 .nothing-else-text {
