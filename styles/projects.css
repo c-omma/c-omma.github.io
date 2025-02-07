@@ -49,10 +49,21 @@
     border-radius: 15%;
 }
 
+.project .project-button:hover {
+    background-color: var(--shadow-title-color);
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .project .project-button a {
     color: var(--white-color);
     font-family: var(--title-font);
     font-size: 3.5vw;
 
     transform: translateY(10%);
+}
+
+.project .project-button a:hover {
+    text-decoration: none;
 }

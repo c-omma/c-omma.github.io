@@ -16,6 +16,7 @@
   --yellow-color:#F5DAAF;
 
   /* shadows */
+  --shadow-title-color: #904f4a;
   --title-shadow: 2px 2px 1px #904f4a;
 
   /* fonts */
@@ -91,8 +92,8 @@ footer {
   margin: 10vh auto 5vh auto;
   justify-content: center;
 
-  border-top: 3vw solid var(--other-text-color);
-  border-bottom: 3vw solid var(--other-text-color);
+  border-top: 3vw solid var(--other-bg-color);
+  border-bottom: 3vw solid var(--other-bg-color);
   border-left: 1vw solid transparent;
   border-right: 1vw solid transparent;
 

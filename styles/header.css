@@ -21,6 +21,8 @@
 
 .flex-container > div > img {
     max-width: 40vw;
+
+    cursor: pointer;
 }
 
 
