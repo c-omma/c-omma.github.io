@@ -1,0 +1,58 @@
+.project {
+    display: flex;
+    justify-content: center;
+
+    height: 15vw;
+    margin: 10vh auto 5vh auto;
+
+    background-color: var(--white-color);
+    border-radius: 5%;
+}
+
+.project div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.project .project-icon {
+    width: 13vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.project .project-icon img {
+    height: 13vw;
+}
+
+.project .project-description {
+    width: 50vw;
+    
+    font-size: 2.5vw;
+}
+
+.project .project-description .project-name {
+    color: var(--main-title-color);
+    font-family: var(--title-font);
+    font-size: 5vw;
+}
+
+
+.project .project-button {
+    width: 8vw;
+    height: 6vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--main-title-color);
+    border-radius: 15%;
+}
+
+.project .project-button a {
+    color: var(--white-color);
+    font-family: var(--title-font);
+    font-size: 3.5vw;
+
+    transform: translateY(10%);
+}
